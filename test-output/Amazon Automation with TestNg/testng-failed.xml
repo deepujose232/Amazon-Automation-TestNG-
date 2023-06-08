@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon Automation with TestNg]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestNg(failed)">
+    <classes>
+      <class name="testlayer.Testing">
+        <methods>
+          <include name="SF_TC_79_Price"/>
+          <include name="close_browser"/>
+          <include name="SF_TC_71_No_of_products_per_page"/>
+          <include name="launch"/>
+          <include name="SF_TC_89_No_of_items_on_page"/>
+        </methods>
+      </class> <!-- testlayer.Testing -->
+    </classes>
+  </test> <!-- TestNg(failed) -->
+</suite> <!-- Failed suite [Amazon Automation with TestNg] -->
