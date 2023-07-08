@@ -44,7 +44,7 @@ public void searching(String name)  {
 	searchbtn.click();
 	js = (JavascriptExecutor) driver;
 	js.executeScript("window.scrollBy(0,1000)");
-	System.out.println("Knowledge");
+	System.out.println("Knowledge1");
 }
 
 public String textresult() {
